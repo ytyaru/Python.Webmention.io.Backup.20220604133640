@@ -1,0 +1,4 @@
+webmention-token(API Key)	domain
+webmentionから与えられるAPI-Key	webmentionを取得したいサイトのドメイン名「example.com」
+webmentionから与えられるAPI-Key	webmentionを取得したいサイトのドメイン名「example1.com」
+webmentionから与えられるAPI-Key	webmentionを取得したいサイトのドメイン名「example2.com」
