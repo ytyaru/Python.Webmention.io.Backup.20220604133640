@@ -36,7 +36,33 @@ cd Python.Webmention.io.Backup.20220604133640/src
 
 # 使い方
 
-## setting.tsv
+　なぜかdomain単位だと取得できないメンションがあった。よってtarget（ページ）単位で取得するようにした。
+
+## targets.tsv
+
+　以下のようにメンションを取得したいページのURLを１行ずつ書く。
+
+```tsv
+https://ytyaru.github.io/
+https://ytyaru.github.io/Html.Mpurse.Api.20220517160403/setup.html
+https://ytyaru.github.io/Html.Mpurse.Api.20220517160403/index.html
+https://ytyaru.github.io/Html.SNS.Icon.20220524195153/
+https://ytyaru.github.io/MonaCoin.Icon.20220521092535/
+https://ytyaru.github.io/Html.MonaCoin.Button.Generator.20220519194201/
+https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/
+https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.Animation.20220531091850/
+https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.Slim.20220531090526/
+https://ytyaru.github.io/Html.Mastodon.Toot.Button.Dialog.WebComponent.20220602192922/
+https://ytyaru.github.io/Html.Tweet.Button.Generator.20220606171017/
+https://ytyaru.github.io/Html.Tweet.Button.WebComponent.20220607091729/
+https://ytyaru.github.io/Html.Webmention.WebComponent.20220607141057/
+```
+
+<!--
+
+## domain単位
+
+### setting.tsv
 
 　次のように「setting.tsv」ファイルを作成する。
 
@@ -51,12 +77,31 @@ webmention-token	target-domain
 * webmentionを取得したいサイトのドメイン名を2列目にセットする（「example.com」等）
 * 上記を好きな数だけ用意する
 
+-->
+
 ## menbk
 
 ```sh
 ./menbk
 ```
 
+1. 指定したページのドメイン名のディレクトリを作る
+1. 指定したページのパスに沿ったファイルを作る
+1. そのページのメンションを全件取得する
+1. JSONファイルとして保存する
+
+　たとえば以下のような感じ。
+
+* `backup/`
+    * `ytyaru.github.io/`
+        * `ytyaru.github.io.json`
+        * `Html.MonaCoin.Button.Component.Generator.20220526192239.json`
+        * `Html.MonaCoin.Button.Generator.20220519194201.json`
+        * ...
+
+　なお、メンションが一件も存在しないページなら、JSONファイルは作成しない。
+
+<!--
 1. 指定したドメイン名のディレクトリを作る
 2. ドメインのメンションを取得する
 3. メンションは20件ずつ取得してJSONファイルにする
@@ -68,6 +113,7 @@ webmention-token	target-domain
     * `1.json`
     * `2.json`
     * `...`
+-->
 
 # 著者
 

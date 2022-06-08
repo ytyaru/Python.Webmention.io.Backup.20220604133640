@@ -39,6 +39,29 @@ cd Python.Webmention.io.Backup.20220604133640/src
 
 # Usage
 
+For some reason, there were mentions that could not be obtained in domain units. Therefore, it is acquired in units of target (page).
+
+## targets.tsv
+
+Write the URL of the page for which you want to get mentions line by line as shown below.
+
+```tsv
+https://ytyaru.github.io/
+https://ytyaru.github.io/Html.Mpurse.Api.20220517160403/setup.html
+https://ytyaru.github.io/Html.Mpurse.Api.20220517160403/index.html
+https://ytyaru.github.io/Html.SNS.Icon.20220524195153/
+https://ytyaru.github.io/MonaCoin.Icon.20220521092535/
+https://ytyaru.github.io/Html.MonaCoin.Button.Generator.20220519194201/
+https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/
+https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.Animation.20220531091850/
+https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.Slim.20220531090526/
+https://ytyaru.github.io/Html.Mastodon.Toot.Button.Dialog.WebComponent.20220602192922/
+https://ytyaru.github.io/Html.Tweet.Button.Generator.20220606171017/
+https://ytyaru.github.io/Html.Tweet.Button.WebComponent.20220607091729/
+https://ytyaru.github.io/Html.Webmention.WebComponent.20220607141057/
+```
+
+<!--
 ## setting.tsv
 
 Create a "setting.tsv" file as follows.
@@ -53,6 +76,7 @@ webmention-token	target-domain
 * Set the API Key obtained by [webmention.io][] in the first column.
 * Set the domain name of the site for which you want to get webmention in the second column ("example.com" etc.)
 * Prepare as many of the above as you like
+-->
 
 ## menbk
 
@@ -60,6 +84,23 @@ webmention-token	target-domain
 ./menbk
 ```
 
+1. Create a directory with the domain name of the specified page
+1. Create a file along the path of the specified page
+1. Get all mentions for that page
+1. Save as JSON file
+
+For example, it looks like the following.
+
+* `backup/`
+    * `ytyaru.github.io/`
+        * `ytyaru.github.io.json`
+        * `Html.MonaCoin.Button.Component.Generator.20220526192239.json`
+        * `Html.MonaCoin.Button.Generator.20220519194201.json`
+        * ...
+
+If the page does not have any mentions, do not create a JSON file.
+
+<!--
 1. Create a directory with the specified domain name
 2. Get domain mentions
 3. Get 20 mentions each and make it a JSON file
@@ -71,6 +112,7 @@ For example, it looks like the following.
     * `1.json`
     * `2.json`
     * `...`
+-->
 
 # Author
 
