@@ -1,0 +1,284 @@
+[
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru",
+            "photo": "https://webmention.io/avatar/img.pawoo.net/3a6289098863cafa2cb5f85ac71906a87aabce7137c518d0286755c3690377e2.png",
+            "url": "https://pawoo.net/@ytyaru_pawoo"
+        },
+        "url": "https://pawoo.net/@ytyaru_pawoo/108435139125922060",
+        "published": "2022-06-07T08:01:54+00:00",
+        "wm-received": "2022-06-07T08:01:57Z",
+        "wm-id": 1410800,
+        "wm-source": "https://pawoo.net/@ytyaru_pawoo/108435139125922060",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>トゥート内容にmpurseのアドレスらしき文字列があれば投げモナボタンをつける。<br />MEHCqJbgiNERCH3bRAtNSSD9uxPViEX1nu<br /><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>",
+            "text": "トゥート内容にmpurseのアドレスらしき文字列があれば投げモナボタンをつける。\nMEHCqJbgiNERCH3bRAtNSSD9uxPViEX1nu\nhttps://ytyaru.github.io/"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru",
+            "photo": "https://webmention.io/avatar/img.pawoo.net/3a6289098863cafa2cb5f85ac71906a87aabce7137c518d0286755c3690377e2.png",
+            "url": "https://pawoo.net/@ytyaru_pawoo"
+        },
+        "url": "https://pawoo.net/@ytyaru_pawoo/108429369327201005",
+        "published": "2022-06-06T07:34:34+00:00",
+        "wm-received": "2022-06-06T07:34:36Z",
+        "wm-id": 1410393,
+        "wm-source": "https://pawoo.net/@ytyaru_pawoo/108429369327201005",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>トゥートしたらすぐwebmentionにリクエストします。<br />ツイートはAPIが使えないためbrid.gyにまかせます。<br /><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>",
+            "text": "トゥートしたらすぐwebmentionにリクエストします。\nツイートはAPIが使えないためbrid.gyにまかせます。\nhttps://ytyaru.github.io/"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru",
+            "photo": "https://webmention.io/avatar/img.pawoo.net/3a6289098863cafa2cb5f85ac71906a87aabce7137c518d0286755c3690377e2.png",
+            "url": "https://pawoo.net/@ytyaru_pawoo"
+        },
+        "url": "https://pawoo.net/@ytyaru_pawoo/108429349410418610",
+        "published": "2022-06-06T07:29:30+00:00",
+        "wm-received": "2022-06-06T07:29:33Z",
+        "wm-id": 1410392,
+        "wm-source": "https://pawoo.net/@ytyaru_pawoo/108429349410418610",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>トゥートしたら即座にwebmentionにリクエストします。<br /><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>",
+            "text": "トゥートしたら即座にwebmentionにリクエストします。\nhttps://ytyaru.github.io/"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "",
+            "url": "https://pawoo.net/@ytyaru_webmention"
+        },
+        "url": "https://pawoo.net/@ytyaru_webmention/108412336135014487",
+        "published": "2022-06-03T07:22:48+00:00",
+        "wm-received": "2022-06-06T06:57:26Z",
+        "wm-id": 1410375,
+        "wm-source": "https://pawoo.net/web/statuses/108412336135014487",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>いいね！<br /><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>",
+            "text": "いいね！\nhttps://ytyaru.github.io/"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "https://webmention.io/avatar/pawoo.net/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+            "url": "https://pawoo.net/@ytyaru_webmention"
+        },
+        "url": "https://pawoo.net/@ytyaru_webmention/108412336135014487",
+        "published": "2022-06-03T07:22:48",
+        "wm-received": "2022-06-04T02:44:07Z",
+        "wm-id": 1409696,
+        "wm-source": "https://brid.gy/post/mastodon/@ytyaru_pawoo@pawoo.net/108412336135014487",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>いいね！<br /><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>\n<a href=\"https://ytyaru.github.io/\">ytyaruのプロフィール</a>",
+            "text": "いいね！\nhttps://ytyaru.github.io/\nytyaruのプロフィール"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru-webmention",
+            "photo": "https://webmention.io/avatar/github.com/04e93a8ed562617764793eed531ea56b97c272a8565405c4ef913a17bcfbe299.png",
+            "url": "https://github.com/ytyaru-webmention"
+        },
+        "url": "https://ytyaru-webmention.github.io/Html.Webmention.Reply.ytyaru.github.io.20220529114956/content/2022-05-29T02-51-00Z.html",
+        "published": "2022-05-29T12:00:00+09:00",
+        "wm-received": "2022-05-29T04:15:10Z",
+        "wm-id": 1406403,
+        "wm-source": "https://ytyaru-webmention.github.io/Html.Webmention.Reply.ytyaru.github.io.20220529114956/content/2022-05-29T02-51-00Z.html",
+        "wm-target": "https://ytyaru.github.io/",
+        "name": "GitHub PagesにアップしたHTMLをwebmentionコメントとして返信するテスト",
+        "summary": {
+            "content-type": "text/plain",
+            "value": "これはサマリーです。HTMLはwebmention用？のmicroformatであるh-entry,h-cardに沿って書きました。"
+        },
+        "content": {
+            "html": "<p><a href=\"https://ytyaru-webmention.github.io/Html.Webmention.Reply.ytyaru.github.io.20220529114956/content/2022-05-29T02-51-00Z.html\">GitHub PagesにアップしたHTML</a>をwebmentionコメントとして使用するテストです。</p>\n      <p>HTMLはwebmention用？のmicroformatである<a href=\"http://microformats.org/wiki/h-entry\">h-entry</a>と<a href=\"http://microformats.org/wiki/h-card\">h-card</a>に沿って書きました。</p>\n      <p>webmentionを使えばコメントをHTMLファイルで管理できます！</p>\n      <p>すごいぞ、えらぞ、やったね！</p>",
+            "text": "GitHub PagesにアップしたHTMLをwebmentionコメントとして使用するテストです。\n      HTMLはwebmention用？のmicroformatであるh-entryとh-cardに沿って書きました。\n      webmentionを使えばコメントをHTMLファイルで管理できます！\n      すごいぞ、えらぞ、やったね！"
+        },
+        "in-reply-to": "https://ytyaru.github.io/",
+        "wm-property": "in-reply-to",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "https://webmention.io/avatar/pawoo.net/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+            "url": "https://pawoo.net/@ytyaru_webmention"
+        },
+        "url": "https://pawoo.net/@ytyaru_webmention/108382339913866412",
+        "published": "2022-05-29T00:14:22",
+        "wm-received": "2022-05-29T00:19:18Z",
+        "wm-id": 1406373,
+        "wm-source": "https://brid.gy/post/mastodon/@ytyaru_pawoo@pawoo.net/108382339913866412",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>pawooサーバでのwebmentionのpublished日時テキスト書式を確認する用トゥートです。<br />もしmstdn.jpと同じなら末尾ZなしのUTC標準時でしょう。<br />これを投稿した日時は日本時刻で約09:14頃です。<br /><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a><br /><a href=\"https://pawoo.net/tags/webmention\">#<span>webmention</span></a></p>\n<a class=\"p-category\" href=\"https://pawoo.net/tags/webmention\">webmention</a>\n<a href=\"https://ytyaru.github.io/\">ytyaruのプロフィール</a>",
+            "text": "pawooサーバでのwebmentionのpublished日時テキスト書式を確認する用トゥートです。\nもしmstdn.jpと同じなら末尾ZなしのUTC標準時でしょう。\nこれを投稿した日時は日本時刻で約09:14頃です。\nhttps://ytyaru.github.io/\n#webmention\nwebmention\nytyaruのプロフィール"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "四季彩MonacoinⓂ️",
+            "photo": "https://webmention.io/avatar/pbs.twimg.com/f55cae85d106e9a174e5d111dfe63bcab078ccea96691f62cce447d672c408c1.jpg",
+            "url": "https://twitter.com/DA8I4ksnvLwwto4"
+        },
+        "url": "https://twitter.com/ytyaru1/status/1529694938061246466#favorited-by-1392356793913798656",
+        "published": null,
+        "wm-received": "2022-05-28T17:17:38Z",
+        "wm-id": 1406272,
+        "wm-source": "https://brid.gy/like/twitter/ytyaru1/1529694938061246466/1392356793913798656",
+        "wm-target": "https://ytyaru.github.io/",
+        "like-of": "https://ytyaru.github.io/",
+        "wm-property": "like-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "宇都宮",
+            "photo": "https://webmention.io/avatar/pbs.twimg.com/2138835a8a91be1f4ec463088943ec10a0941e8878b87ee29444745b17e17ed3.jpg",
+            "url": "https://twitter.com/utsu_monacoiner"
+        },
+        "url": "https://twitter.com/ytyaru1/status/1529694938061246466#favorited-by-1183909725764648960",
+        "published": null,
+        "wm-received": "2022-05-27T22:49:20Z",
+        "wm-id": 1405928,
+        "wm-source": "https://brid.gy/like/twitter/ytyaru1/1529694938061246466/1183909725764648960",
+        "wm-target": "https://ytyaru.github.io/",
+        "like-of": "https://ytyaru.github.io/",
+        "wm-property": "like-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "宇都宮",
+            "photo": "https://webmention.io/avatar/pbs.twimg.com/2138835a8a91be1f4ec463088943ec10a0941e8878b87ee29444745b17e17ed3.jpg",
+            "url": "https://twitter.com/utsu_monacoiner"
+        },
+        "url": "https://twitter.com/utsu_monacoiner/status/1530310201336664064",
+        "published": "2022-05-27T22:09:18+00:00",
+        "wm-received": "2022-05-27T22:48:50Z",
+        "wm-id": 1405923,
+        "wm-source": "https://brid.gy/repost/twitter/ytyaru1/1529694938061246466/1530310201336664064",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "text": "自分のプロフィール・サイトを作りました。\nytyaru.github.io\n\n#モナコイン #github #webmention #ytyaru #暗号通貨"
+        },
+        "repost-of": "https://ytyaru.github.io/",
+        "wm-property": "repost-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "https://webmention.io/avatar/mstdn.jp/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+            "url": "https://mstdn.jp/@ytyaru_webmention"
+        },
+        "url": "https://mstdn.jp/@ytyaru_webmention/108354636548215021",
+        "published": "2022-05-24T02:49:03",
+        "wm-received": "2022-05-24T02:49:17Z",
+        "wm-id": 1403326,
+        "wm-source": "https://brid.gy/post/mastodon/@ytyaru@mstdn.jp/108354636548215021",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>テストですぐ確認するには次の通り。</p><p>1. MastodonでコメントしたいページのURLを入れてTootする<br />2. TootのURLを取得する<br />3. bridgyでResend for postにTootのURLを入力する<br />4. Discoverボタンを押す<br />5. Poll Nowボタンを押す</p><p>　bridgyの下に表示されるはず。コメントされたページに反映されたか確認する。</p><p><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>\n<a href=\"https://ytyaru.github.io/\">ytyaruのプロフィール</a>",
+            "text": "テストですぐ確認するには次の通り。1. MastodonでコメントしたいページのURLを入れてTootする\n2. TootのURLを取得する\n3. bridgyでResend for postにTootのURLを入力する\n4. Discoverボタンを押す\n5. Poll Nowボタンを押す　bridgyの下に表示されるはず。コメントされたページに反映されたか確認する。https://ytyaru.github.io/\nytyaruのプロフィール"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "https://webmention.io/avatar/mstdn.jp/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+            "url": "https://mstdn.jp/@ytyaru_webmention"
+        },
+        "url": "https://mstdn.jp/@ytyaru_webmention/108354528252306536",
+        "published": "2022-05-24T02:21:30",
+        "wm-received": "2022-05-24T02:40:53Z",
+        "wm-id": 1403324,
+        "wm-source": "https://brid.gy/post/mastodon/@ytyaru@mstdn.jp/108354528252306536",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>webmentionが表示されるか確認します。</p><p><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a></p>\n<a href=\"https://ytyaru.github.io/\">ytyaruのプロフィール</a>",
+            "text": "webmentionが表示されるか確認します。https://ytyaru.github.io/\nytyaruのプロフィール"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    },
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "https://webmention.io/avatar/mstdn.jp/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+            "url": "https://mstdn.jp/@ytyaru_webmention"
+        },
+        "url": "https://mstdn.jp/@ytyaru_webmention/108354560830779775",
+        "published": "2022-05-24T02:29:47",
+        "wm-received": "2022-05-24T02:40:39Z",
+        "wm-id": 1403323,
+        "wm-source": "https://brid.gy/post/mastodon/@ytyaru@mstdn.jp/108354560830779775",
+        "wm-target": "https://ytyaru.github.io/",
+        "content": {
+            "html": "<p>brid.gyを使ってwebmentionに投稿してもらうテスト。</p><p>返信したいURLのほか、brid.gy用URLも入れる必要がある。</p><p><a href=\"https://ytyaru.github.io/\"><span>https://</span><span>ytyaru.github.io/</span><span></span></a><br /><a href=\"https://brid.gy/publish/mastodon\"><span>https://</span><span>brid.gy/publish/mastodon</span><span></span></a></p>\n<a class=\"u-mention\" href=\"https://brid.gy/publish/mastodon\"></a>\n<a href=\"https://ytyaru.github.io/\">ytyaruのプロフィール</a>",
+            "text": "brid.gyを使ってwebmentionに投稿してもらうテスト。返信したいURLのほか、brid.gy用URLも入れる必要がある。https://ytyaru.github.io/\nhttps://brid.gy/publish/mastodon\n\nytyaruのプロフィール"
+        },
+        "mention-of": "https://ytyaru.github.io/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    }
+]

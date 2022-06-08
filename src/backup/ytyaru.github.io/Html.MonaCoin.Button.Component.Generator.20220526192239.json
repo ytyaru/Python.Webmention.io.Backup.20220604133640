@@ -1,0 +1,24 @@
+[
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "ytyaru_webmention",
+            "photo": "https://webmention.io/avatar/pawoo.net/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+            "url": "https://pawoo.net/@ytyaru_webmention"
+        },
+        "url": "https://pawoo.net/@ytyaru_webmention/108390934432360157",
+        "published": "2022-05-30T12:40:04",
+        "wm-received": "2022-05-30T12:44:05Z",
+        "wm-id": 1406805,
+        "wm-source": "https://brid.gy/post/mastodon/@ytyaru_pawoo@pawoo.net/108390934432360157",
+        "wm-target": "https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/",
+        "content": {
+            "html": "<p>webmention用rel=\"me\"を入れ忘れていたので入れました。<br />これまでコメントしてくれた方がいたらごめんなさい。<br />たぶん受け付けることができていませんでした。<br />このメッセージが出ていればもう大丈夫なはずです。<br /><a href=\"https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/\"><span>https://</span><span>ytyaru.github.io/Html.MonaCoin</span><span>.Button.Component.Generator.20220526192239/</span></a></p>\n<a href=\"https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/\">投げモナボタンジェネレータ（WebComponent版）</a>",
+            "text": "webmention用rel=\"me\"を入れ忘れていたので入れました。\nこれまでコメントしてくれた方がいたらごめんなさい。\nたぶん受け付けることができていませんでした。\nこのメッセージが出ていればもう大丈夫なはずです。\nhttps://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/\n投げモナボタンジェネレータ（WebComponent版）"
+        },
+        "mention-of": "https://ytyaru.github.io/Html.MonaCoin.Button.Component.Generator.20220526192239/",
+        "wm-property": "mention-of",
+        "wm-private": false
+    }
+]

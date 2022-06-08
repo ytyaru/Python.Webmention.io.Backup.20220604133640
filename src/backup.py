@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # coding: utf8
-import os
-import sys
-import json
+import os, sys, io, json, time
 import requests
 import collections
-import io
+from urllib.parse import urlparse
 import client
 import setting
 class Backup:
@@ -16,7 +14,51 @@ class Backup:
         self.since_id = None
         self.file_num = 0
         self.old_file = None
-    def domain(self):
+    def target(self): # ページ単位
+        print('------------- target -------------')
+        with open(os.path.join(os.getcwd(), 'targets.tsv'), 'r', encoding='utf-8') as f:
+            for target in f:
+                target = target.strip()
+                if 0 == len(target): continue
+                url = urlparse(target)
+                dir_path = os.path.join(os.getcwd(), 'backup', url.netloc).strip('-')
+                os.makedirs(dir_path, exist_ok=True)
+                file_id = url.path.replace(os.path.sep, '-').strip('-')
+                file_name = f"{url.netloc if 0 == len(file_id) else file_id}".strip('-') + '.json'
+                file_path = os.path.join(dir_path, file_name)
+                print(file_path)
+                params = {
+                    'target': target,
+                    'per-page': sys.maxsize,
+                    'page': 0,
+                }
+                # すでにファイルがある（既存ファイルを開いて最終日時を取得する）
+                # まだファイルがない（新規作成）
+                j = None
+                if os.path.isfile(file_path):
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        j = json.load(f)
+                        self.since = j[0]['wm-received']
+                        self.since_id = j[0]['wm-id']
+                        params['since'] = self.since
+                else:
+                    self.since = None
+                    self.since_id = None
+                new_json = self.client.jf2(params)
+                print('新しいメンションを取得した:', len(new_json['children']))
+                if 0 == len(new_json['children']):
+                    print('新しいmentionはありません。')
+                else:
+                    print('新しいmentionがあります。')
+                    if j is None:
+                        print('------------ 新しいJSONファイルに全件出力する -------------')
+                        with open(file_path, 'w', encoding='utf-8') as f: f.write(self._dump(new_json['children']))
+                    else:
+                        print('------------ 既存JSONファイルの配列の先頭に追記する -------------')
+                        j[0:0] = new_json['children']
+                        with open(file_path, 'w', encoding='utf-8') as f: f.write(self._dump(j))
+                time.sleep(1)
+    def domain(self): # ドメイン単位（なぜかページ単位で取得できたメンションが取得できない）
         print('------------- domain -------------')
         print(self.setting.get())
         for setting in self.setting.get():
@@ -95,5 +137,6 @@ class Backup:
 
 if __name__ == "__main__":
     backup = Backup()
-    backup.domain()
+    backup.target()
+#    backup.domain()
 

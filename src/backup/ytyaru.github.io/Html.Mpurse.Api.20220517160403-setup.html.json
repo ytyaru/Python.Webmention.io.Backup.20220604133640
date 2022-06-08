@@ -1,0 +1,20 @@
+[
+    {
+        "type": "entry",
+        "author": {
+            "type": "card",
+            "name": "四季彩MonacoinⓂ️",
+            "photo": "https://webmention.io/avatar/pbs.twimg.com/f55cae85d106e9a174e5d111dfe63bcab078ccea96691f62cce447d672c408c1.jpg",
+            "url": "https://twitter.com/DA8I4ksnvLwwto4"
+        },
+        "url": "https://twitter.com/ytyaru1/status/1529695099688714241#favorited-by-1392356793913798656",
+        "published": null,
+        "wm-received": "2022-05-28T17:17:37Z",
+        "wm-id": 1406271,
+        "wm-source": "https://brid.gy/like/twitter/ytyaru1/1529695099688714241/1392356793913798656",
+        "wm-target": "https://ytyaru.github.io/Html.Mpurse.Api.20220517160403/setup.html",
+        "like-of": "https://ytyaru.github.io/Html.Mpurse.Api.20220517160403/setup.html",
+        "wm-property": "like-of",
+        "wm-private": false
+    }
+]
