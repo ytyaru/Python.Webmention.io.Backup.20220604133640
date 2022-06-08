@@ -71,8 +71,8 @@ class Backup:
         file_path = self._get_last_file_path()
         if 0 == self.file_num: return file_path, None
         with open(file_path, 'r', encoding='utf-8') as f: j = json.load(f)
-        self.since = j[0]['wm-id']
-        self.since_id = j[0]['wm-received']
+        self.since = j[0]['wm-received']
+        self.since_id = j[0]['wm-id']
         if len(j) < self.client.params['per-page']: return file_path, j
 #        else: return self._get_next_file_path(), None
         else:
